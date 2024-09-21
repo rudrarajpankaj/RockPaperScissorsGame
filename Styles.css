@@ -1,0 +1,140 @@
+            * {
+                padding: 0;
+                margin: 0;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            body {
+                height: 100vh;
+                background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(136, 0, 255) 0%, rgba(24,22,39,1) 90% );
+            }
+
+            h2{
+                color: white; 
+                text-align: center; 
+                text-transform: uppercase;
+                padding-top:30px ;
+                text-decoration: underline;
+            }
+            .main {
+                width: 470px;
+                margin: 50px auto;
+                backdrop-filter: blur(20px);
+                background-color: rgba(0, 0, 0, 0.496);
+                padding: 50px;
+                text-align: center;
+                color: white;
+                border-radius: 30px;
+                box-shadow: 2px 2px 300px black,2px 2px 20px black;
+            }
+
+            .resultShow {
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+                font-size: 25px;
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                row-gap: 1.5em;
+                justify-content: center;
+                text-align: center;
+                margin: auto;
+            }
+
+            .buttonjoin {
+                display: flex;
+                column-gap: 1.5em;
+                flex-wrap: wrap;
+                margin-top: 70px;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 5em;
+                height: 5em;
+                padding: 10px;
+                background-color: #001548;
+                border-radius: 50px;
+                box-shadow: 2px 2px 20px white;
+
+            }
+
+            .button1 {
+                width: 5.7em;
+                height: 5.7em;
+                border: none;
+                border-radius: 10px;
+                background: url('https://media0.giphy.com/media/L0ZUgksMK4uH5piNq6/giphy.gif?cid=6c09b952r4ba1sjx7lzq1dnk5m1o8tmbq4xmgxaggofosizz&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s');
+                background-size: contain;
+                cursor: pointer;
+            }
+
+            .button2 {
+                width: 5.7em;
+                height: 5.7em;
+                border: none;
+
+                border-radius: 10px;
+                background: url('https://media.giphy.com/media/4KELPefVuGnAvPJ2lx/giphy.gif');
+                background-size: contain;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+
+            .button3 {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: 5.7em;
+                border: none;
+
+                height: 5.7em;
+                border-radius: 10px;
+                background: url('https://cdn-icons-png.flaticon.com/512/5167/5167559.png');
+                background-size: cover;
+                cursor: pointer;
+            }
+
+            .button4 {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: 5.7em;
+                height: 5.7em;
+                border: none;
+
+                border-radius: 10px;
+                background: url('https://i.gifer.com/o8G.gif');
+                background-size: contain;
+                cursor: pointer;
+            }
+
+            #computerScore {
+                border-right: 3px solid rgb(0, 13, 255);
+            }
+            .resultShow p {
+                padding: 10px;
+                
+            }
+            #result{
+                font-size: 25px;
+                color: mintcream;
+                text-shadow: 2px 2px 30px black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            #computerScore{
+                color: red;
+                font-weight: bolder;
+
+            }
+            #playerScore{
+                color: goldenrod;
+                font-weight: bolder;
+            }
